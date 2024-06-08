@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toDoList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__titulo">Mi To Do List</h1>
+    </header>
+    <main class="main">
+      <div class="todo__card">
+        <form class="todo__tasks">
+          <div class="todo__tasks__input">
+            <input
+              type="text"
+              class="tasks__input"
+              placeholder="Ingrese la tarea"
+            />
+          </div>
+          <input type="submit" class="tasks__add" value="Agregar" />
+        </form>
+
+        <ul class="todos">
+          <p class="todos__msg">Hay 0 tareas por completar</p>
+        </ul>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
